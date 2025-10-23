@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UFT-8">
+	<meta name="viewport" content="width=device-width"/>
+	<title id="fptitle">WXHA</title>
+	<script src="file:///G:/website/html/webjs.js"></script>
+	<style>
+	#body {	
+			padding: 25px;
+			background: url(file:///G:/website/image/background.png);
+			background-repeat: no-repeat;
+			background-size: auto;
+  }
+	#logo{	background: url(file:///G:/website/image/wxhalogo1.png);
+			background-position: absolute;
+			width:70px;
+			height:70px;
+			position:absolute;
+			left:1270px;
+			top:10px;
+					
+	}
+	#menu1{	background: url(file:///G:/website/image/menu3.png);
+			position:absolute;
+			width:150px;
+			height:20px;
+			left:1190px;
+			top:180px;
+	}
+	
+	#menu2{	background:url(file:///G:/website/image/menu1.png);
+			position:absolute;
+			width:150px;
+			height:20px;
+			left:1190px;
+			top:120px;
+	}
+	
+	#menu3{	background:url(file:///G:/website/image/menu2.png);
+			position:absolute;
+			width:150px;
+			height:20px;
+			left:1190px;
+			top:150px;
+	}
+	
+	#menu4{	background:url(file:///G:/website/image/menu4.png);
+			position:absolute;
+			width:105px;
+			height:20px;
+			left:1235px;
+			top:210px;
+	}
+	
+	#menu5{	background:url(file:///G:/website/image/logout.png);
+			position:absolute;
+			width:80px;
+			height:23.9px;
+			left:1259px;
+			top:238px;
+	}
+	
+	#wxhastar{background:url(file:///G:/website/image/wxhastar.png);
+			background-position: absolute;
+			width:150px;
+			height:350px;
+			position:absolute;
+			left:1190px;
+			top:268px;
+	}
+	
+	#agreement{	background:url(file:///G:/website/image/agreement.png);
+				background-position: absolute;
+				width:800px;
+				height:130px;
+				position:absolute;
+				top:120px;
+				left:300px;
+				
+	}
+	
+	#orderform{position:absolute;
+				top:300px;
+				left:350px;
+	}
+	
+	#tit{	background:url(file:///G:/website/image/tit11.png);
+			background-position: absolute;
+			width:300px;
+			height:30px;
+			position:absolute;
+			left:550px;
+			top:50px;
+					
+	}
+	
+	#subb{	position:absolute;
+			left:300px;
+	}
+	
+	#plogo1{background: url(file:///G:/website/image/bcdlogo1.png);
+			background-size: auto;
+			background-repeat: no-repeat;
+			width:20px;
+			height:20px;
+			position:absolute;
+			left:1168px;
+			top:119px;
+			
+	}
+	
+	#plogo2{background: url(file:///G:/website/image/wxhafood1.png);
+			background-size: auto;
+			background-repeat: no-repeat;
+			width:20px;
+			height:20px;
+			position:absolute;
+			left:1168px;
+			top:149px;
+			
+	}
+	
+	#plogo3{background: url(file:///G:/website/image/inshrnuah1.png);
+			background-size: auto;
+			background-repeat: no-repeat;
+			width:20px;
+			height:20px;
+			position:absolute;
+			left:1168px;
+			top:181px;
+			
+	}
+	
+	#news{	background: url(file:///G:/website/image/news.png);
+			background-size: auto;
+			background-repeat: no-repeat;
+			width:110px;
+			height:22px;
+			position:absolute;
+			left:297px;
+			top:48px;
+					
+	}
+	
+	#Trending{	background: url(file:///G:/website/image/trending.png);
+			background-size: auto;
+			background-repeat: no-repeat;
+			width:110px;
+			height:22px;
+			position:absolute;
+			left:987px;
+			top:48px;
+			
+					
+	}
+	
+	#bmm{background: url(file:///G:/website/image/username1.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:110px;
+			height:22px;
+			position:absolute;
+			top: -23px;}
+			
+	#emm{background: url(file:///G:/website/image/email.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:110px;
+			height:22px;
+			top:-23px;
+			position:absolute;}
+			
+	#telll{background: url(file:///G:/website/image/telephone.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:110px;
+			height:22px;
+			top:33px;
+			position:absolute;}
+			
+	#bddd{background: url(file:///G:/website/image/bddd1.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:200px;
+			height:22px;
+			top:90px;
+			position:absolute;}
+  
+</style>
+</head>
+
+<body id="body">
+	<div id="plogo1"></div>
+	<div id="plogo2"></div>
+	<div id="plogo3"></div>
+	<div id="plogo4"></div>
+	<div id="news"></div>
+	<div id="Trending"></div>
+
+	<button id="menu1"  onclick="inhomepage()"></button>
+	
+		<button id="menu2"  onclick="bcdhomepage()" ></button>
+	
+		<button id="menu3"  onclick="wfhomepage()"></button>
+	
+		<button id="menu4"  onclick="abushomepage()"></button>
+		
+		<button id="menu5"  onclick="logout()"></button>
+	
+	<div id="agreement" >
+					  
+					  </div>
+	
+	<div id="orderform">
+		
+	<form action="/order_form.php" method="post">
+		
+		<label id="bmm" for="businessname"></label>
+		
+		<input type="text" id="businessname" name="businessname" size="30">
+		
+		<label id="emm" for="email"></label>
+		
+		<input type="email" id="email" name="email" size="30"><br><br><br>
+		
+		<label id="telll" for="telephone"></label>
+		
+		<input type="number" id="telephone" name="telephone" size="50"><br><br><br>
+		
+		<label id="bddd" for="telephone"></label>
+		<input type="file" id="myFile" name="filename"><br><br><br>
+		
+		<input id="subb" type="submit" value="Submit Order" style="background:pink;"><br><br>
+	</form>
+	
+</div>
+	
+	
+	
+	<button id="logo" onclick="logohome()">
+	</button>
+	
+	<div id="wxhastar">
+	</div>
+	
+	<div id="tit">
+	</div>
+	
+	
+</body>
+</html>
+		

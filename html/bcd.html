@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UFT-8">
+	<meta name="viewport" content="width=device-width"/>
+	<title id="fptitle">WXHA</title>
+	<script src="file:///G:/website/html/webjs.js"></script>
+	
+	<style>
+	body {	
+			padding: 25px;
+			background: url(file:///G:/website/image/background.png);
+			background-repeat: no-repeat;
+			background-size: auto;
+  }
+	#logo{	background: url(file:///G:/website/image/wxhalogo1.png);
+			background-position: absolute;
+			width:70px;
+			height:70px;
+			position:absolute;
+			left:1270px;
+			top:10px;
+					
+	}
+	
+	#menu1{	background: url(file:///G:/website/image/menu3.png);
+			position:absolute;
+			padding:0;
+			width:150px;
+			height:20px;
+			left:1190px;
+			top:180px;
+	}
+	
+	#menu2{	background:url(file:///G:/website/image/menu1.png);
+			position:absolute;
+			width:150px;
+			height:20px;
+			left:1190px;
+			top:120px;
+	}
+	
+	#menu3{	background:url(file:///G:/website/image/menu2.png);
+			position:absolute;
+			width:150px;
+			height:20px;
+			left:1190px;
+			top:150px;
+	}
+	
+	#menu4{	background:url(file:///G:/website/image/menu4.png);
+			position:absolute;
+			width:105px;
+			height:20px;
+			left:1235px;
+			top:210px;
+	}
+	
+	#menu5{	background:url(file:///G:/website/image/logout.png);
+			position:absolute;
+			width:80px;
+			height:23.9px;
+			left:1259px;
+			top:238px;
+	}
+	
+	#infohm{background: url(file:///G:/website/image/fcnn.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:380px;
+			height:550px;
+			position:absolute;
+			left:10px;
+			top:70px;
+	}
+	
+	#pdet{	
+			background-position: absolute;
+			width:780px;
+			height:550px;
+			position:absolute;
+			left:380px;
+			top:70px;
+	}
+	
+	#wxhastar{background:url(file:///G:/website/image/wxhastar.png);
+			background-position: absolute;
+			width:150px;
+			height:350px;
+			position:absolute;
+			left:1190px;
+			top:268px;
+	}
+  
+	#plogo1{background: url(file:///G:/website/image/bcdlogo1.png);
+			background-size: auto;
+			background-repeat: no-repeat;
+			width:20px;
+			height:20px;
+			position:absolute;
+			left:1168px;
+			top:119px;
+			
+	}
+	
+	#plogo2{background: url(file:///G:/website/image/wxhafood1.png);
+			background-size: auto;
+			background-repeat: no-repeat;
+			width:20px;
+			height:20px;
+			position:absolute;
+			left:1168px;
+			top:149px;
+			
+	}
+	
+	#plogo3{background: url(file:///G:/website/image/inshrnuah1.png);
+			background-size: auto;
+			background-repeat: no-repeat;
+			width:20px;
+			height:20px;
+			position:absolute;
+			left:1168px;
+			top:181px;
+			
+	}
+	
+	#news{	background: url(file:///G:/website/image/news.png);
+			background-size: auto;
+			background-repeat: no-repeat;
+			width:110px;
+			height:22px;
+			position:absolute;
+			left:250px;
+			top:48px;
+					
+	}
+	
+	#Trending{	background: url(file:///G:/website/image/trending.png);
+			background-size: auto;
+			background-repeat: no-repeat;
+			width:110px;
+			height:22px;
+			position:absolute;
+			left:987px;
+			top:48px;
+			
+					
+	}
+	
+	#br{
+			background: url(file:///G:/website/image/bol.png);
+			background-position: absolute;
+			width:70px;
+			height:70px;
+			position:absolute;
+			left:53px;
+			top:20px;
+	}
+	
+	#brdt{
+			background: url(file:///G:/website/image/br.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:150px;
+			height:180px;
+			position:absolute;
+			left:13px;
+			top:85px;
+	}
+	
+	#ber{
+			background: url(file:///G:/website/image/ber.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:70px;
+			height:70px;
+			position:absolute;
+			left:55px;
+			top:275px;
+	}
+	
+	#berdt{
+			background: url(file:///G:/website/image/br4.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:150px;
+			height:180px;
+			position:absolute;
+			left:13px;
+			top:350px;
+	}
+	
+	#bol{
+			background: url(file:///G:/website/image/bol.png);
+			background-position: absolute;
+			width:70px;
+			height:70px;
+			position:absolute;
+			left:250px;
+			top:20px;
+	}
+	
+	#boldt{
+			background: url(file:///G:/website/image/br1.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:170px;
+			height:180px;
+			position:absolute;
+			left:200px;
+			top:85px;
+	}
+	
+	#baf{
+			background: url(file:///G:/website/image/baf.png);
+			background-position: absolute;
+			width:70px;
+			height:70px;
+			position:absolute;
+			left:250px;
+			top:275px;
+	}
+	
+	#bafdt{
+			background: url(file:///G:/website/image/br5.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:170px;
+			height:180px;
+			position:absolute;
+			left:200px;
+			top:350px;
+	}
+	
+	#bpd{
+			background: url(file:///G:/website/image/bpd.png);
+			background-position: absolute;
+			width:70px;
+			height:70px;
+			position:absolute;
+			left:456px;
+			top:20px;
+	}
+	
+	#bpddt{
+			background: url(file:///G:/website/image/br2.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:170px;
+			height:180px;
+			position:absolute;
+			left:405px;
+			top:85px;
+	}
+	
+	#bwd{
+			background: url(file:///G:/website/image/bwd.png);
+			background-position: absolute;
+			width:70px;
+			height:70px;
+			position:absolute;
+			left:456px;
+			top:275px;
+	}
+	
+	#bwddt{
+			background: url(file:///G:/website/image/br6.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:170px;
+			height:180px;
+			position:absolute;
+			left:405px;
+			top:350px;
+	}
+	
+	#bspd{
+			background: url(file:///G:/website/image/bspd.png);
+			background-position: absolute;
+			width:70px;
+			height:70px;
+			position:absolute;
+			left:640px;
+			top:20px;
+	}
+	
+	#bspddt{
+			background: url(file:///G:/website/image/br3.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:150px;
+			height:180px;
+			position:absolute;
+			left:597px;
+			top:85px;
+	}
+	
+	#bpdl{
+			background: url(file:///G:/website/image/bpdl.png);
+			background-position: absolute;
+			width:70px;
+			height:70px;
+			position:absolute;
+			left:640px;
+			top:275px;
+	}
+	
+	#bpdldt{
+			background: url(file:///G:/website/image/br7.png);
+			background-position: absolute;
+			background-repeat:no-repeat;
+			width:150px;
+			height:180px;
+			position:absolute;
+			left:597px;
+			top:350px;
+	}
+  
+</style>
+</head>
+<body id="body">
+	<div id="plogo1"></div>
+	<div id="plogo2"></div>
+	<div id="plogo3"></div>
+	<div id="plogo4"></div>
+	<div id="news"></div>
+	<div id="Trending"></div>
+
+	<button id="menu1"  onclick="inhomepage()"></button>
+	
+		<button id="menu2"  onclick="bcdhomepage()" ></button>
+	
+		<button id="menu3"  onclick="wfhomepage()"></button>
+	
+		<button id="menu4"  onclick="abushomepage()"></button>
+		
+		<button id="menu5"  onclick="logout()"></button>
+	
+		<div id="infohm" >
+	</div>
+	
+	<div id="pdet">
+		<button id="br" onclick="br()"></button>
+		<div id="brdt" ></div>
+		<button id="ber" onclick="ber()"></button>
+		<div id="berdt" ></div>
+		<button id="bol" onclick="bol()"></button>
+		<div id="boldt" ></div>
+		<button id="baf" onclick="baf()"></button>
+		<div id="bafdt" ></div>
+		<button id="bpd" onclick="bpd()"></button>
+		<div id="bpddt" ></div>
+		<button id="bwd" onclick="bwd()"></button>
+		<div id="bwddt" ></div>
+		<button id="bspd" onclick="bspd()"></button>
+		<div id="bspddt" ></div>
+		<button id="bpdl" onclick="bpdl()"></button>
+		<div id="bpdldt" ></div>
+		
+	
+	
+	
+	</div>
+	
+	
+	<button id="logo" onclick="logohome()">
+	</button>
+	
+	<div id="wxhastar">
+	</div>
+</html>
+		
